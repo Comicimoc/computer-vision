@@ -19,7 +19,6 @@
 
 
 # Стек технологий
-
 - Python
 - PyTorch
 - PyCharm, Jupyter Notebook
@@ -103,7 +102,6 @@ class NeuralNet_v2(nn.Module):
 ### Конфигурация обучения
 ```python
 Loss = nn.CrossEntropyLoss()
-
 Optimizer = optim.Adam(
     net_v2.parameters(),
     lr=0.001
